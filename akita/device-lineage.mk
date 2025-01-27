@@ -16,3 +16,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/vendor.prop
 # Init
 PRODUCT_PACKAGES += \
     init.recovery.akita.touch.rc
+
+#PRODUCT_HOST_PACKAGES += \
+       libartpalette
