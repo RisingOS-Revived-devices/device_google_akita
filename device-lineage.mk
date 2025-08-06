@@ -25,6 +25,9 @@ PRODUCT_PACKAGES += \
 # PixelParts
 include packages/apps/PixelParts/device.mk
 
+# PixelSupport
+-include device/google/gs-common/pixelsupport/pixelsupport.mk
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
