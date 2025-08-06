@@ -23,6 +23,9 @@ ifneq ($(TARGET_BOOTS_16K),true)
 PRODUCT_16K_DEVELOPER_OPTION := true
 endif
 
+# Use libc variant by default
+PRODUCT_USE_SCUDO := true
+
 DEVICE_PACKAGE_OVERLAYS += device/google/akita/akita/overlay
 
 USE_AUDIO_HAL_AIDL := true
