@@ -27,6 +27,11 @@ TARGET_HAS_UDFPS := true
 # Gms 
 WITH_GMS := true
 
+# Ship Google Camera
+TARGET_PREBUILT_GOOGLE_CAMERA := true
+
+RISING_MAINTAINER=EliteDarkKaiser
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
