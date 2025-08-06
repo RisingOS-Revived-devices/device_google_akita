@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BUILD_BROKEN_DUP_RULES := true
+DEVICE_PATH := device/google/akita
 # Init
 INIT_LIB := //$(DEVICE_PATH):libinit_akita
 $(call soong_config_set,libinit,vendor_init_lib,$(INIT_LIB))
