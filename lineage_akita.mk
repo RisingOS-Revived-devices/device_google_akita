@@ -30,6 +30,9 @@ WITH_GMS := true
 # Ship Google Camera
 TARGET_PREBUILT_GOOGLE_CAMERA := true
 
+#Ship Pixel Overlays
+WITH_PIXEL_OVERLAYS := false
+
 RISING_MAINTAINER=EliteDarkKaiser
 
 # Boot animation
