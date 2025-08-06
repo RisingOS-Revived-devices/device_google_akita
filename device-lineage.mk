@@ -25,6 +25,9 @@ PRODUCT_PACKAGES += \
 # PixelParts
 include packages/apps/PixelParts/device.mk
 
+# Ship Google Face Unlock ( GFU )
+TARGET_SUPPORTS_GFU := true
+
 # PixelSupport
 -include device/google/gs-common/pixelsupport/pixelsupport.mk
 
