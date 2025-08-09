@@ -28,14 +28,12 @@ TARGET_PREBUILT_BCR := true
 # Gms 
 WITH_GMS := true
 
-# Ship Google Camera
-TARGET_PREBUILT_GOOGLE_CAMERA := true
-
 #Ship Pixel Overlays
 WITH_PIXEL_OVERLAYS := false
 
 RISING_MAINTAINER=EliteDarkKaiser
 RISING_VERSION := 8.0
+TARGET_FACE_UNLOCK_SUPPORTED := false
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
