@@ -27,6 +27,8 @@ TARGET_PREBUILT_BCR := true
 
 # Gms 
 WITH_GMS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+RELEASE_PIXEL_2025_ENABLED := true
 
 #Ship Pixel Overlays
 WITH_PIXEL_OVERLAYS := false
